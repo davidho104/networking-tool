@@ -96,6 +96,7 @@ nav div:nth-of-child(3n+2), nav div:nth-of-child(3n) {
 
 nav div.navbar {
   width: 100%;
+  justify-content: space-between
 }
 
 nav ul.nav {
