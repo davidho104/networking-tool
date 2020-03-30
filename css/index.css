@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
-  --bg-primary: #FAFAFA;
-  --bg-secondary: #EBEBEB;
+  --bg-primary: #fafafa;
+  --bg-secondary: #ebebeb;
   --color-primary: #000000;
   --color-secondary: #878787;
   --color-tertiary: #289263; /* UNAVSA Green */
@@ -93,7 +93,8 @@ nav {
   background-color: var(--bg-secondary);
 }
 
-nav div:nth-of-child(3n+2), nav div:nth-of-child(3n) {
+nav div:nth-of-child(3n + 2),
+nav div:nth-of-child(3n) {
   text-align: center;
 }
 
@@ -108,13 +109,11 @@ nav ul.nav {
   justify-content: center;
   list-style-type: none;
   padding: 0px 1rem;
-  
 }
 
 nav ul.nav li {
   padding: 0 1rem;
   color: var(--color-secondary);
-  
 }
 
 nav ul.nav li:hover {
@@ -128,8 +127,6 @@ nav ul.nav li:hover {
 nav ul.nav a {
   text-decoration: none;
   color: inherit;
-  
-  
 }
 
 nav img#unavsaLogo {
