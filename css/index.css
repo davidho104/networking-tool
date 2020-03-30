@@ -9,7 +9,8 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1,
@@ -22,4 +23,47 @@ p {
   color: var(--color-primary);
 }
 
-/* CSS files add styling rules to your content */
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.centered {
+  margin: 0px auto;
+}
+
+
+
+/* Nav */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+nav div:nth-of-child(3n+2), nav div:nth-of-child(3n) {
+  text-align: center;
+}
+
+nav.navbar {
+  
+}
+
+nav ul.nav {
+  
+}
+
